@@ -4,7 +4,7 @@ import { Parallax } from "react-parallax";
 const HeroSection = () => {
   return (
     <Parallax
-      bgImage="https://w.wallhaven.cc/full/kw/wallhaven-kw783d.jpg"
+      bgImage="https://w.wallhaven.cc/full/4g/wallhaven-4gr36e.jpg"
       strength={300}
       bgImageStyle={{  objectFit: "cover", width: "100%", height: "100%"  }}
     >

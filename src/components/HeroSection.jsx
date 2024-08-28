@@ -5,11 +5,10 @@ const HeroSection = () => {
   return (
     <Parallax
       bgImage="https://w.wallhaven.cc/full/kw/wallhaven-kw783d.jpg"
-      strength={400}
-      className="relative md:h-screen h-[60vh] flex items-center justify-center overflow-hidden"
-      bgImageStyle={{ objectFit: 'cover' }} // Asegura que la imagen cubra el área sin estirarse
+      strength={300}
+      bgImageStyle={{  objectFit: "cover", width: "100%", height: "100%"  }}
     >
-      <div id="hero" className="text-center text-gray-100">
+      <div id="hero" className="text-center text-gray-100 h-screen flex flex-col items-center justify-center">
         <h1 className="text-4xl md:text-6xl font-bold mb-4 text-shadow">Bienvenido a Soluciones Digitales</h1>
         <p className="text-lg md:text-2xl text-shadow">Landing Page de Ejemplo</p>
       </div>

@@ -6,7 +6,7 @@ const HeroSection = () => {
     <Parallax
       bgImage="https://w.wallhaven.cc/full/kw/wallhaven-kw783d.jpg"
       strength={400}
-      className="relative md:h-screen h-[70vh] flex items-center justify-center overflow-hidden"
+      className="relative md:h-screen h-[60vh] flex items-center justify-center overflow-hidden"
       bgImageStyle={{ objectFit: 'cover' }} // Asegura que la imagen cubra el área sin estirarse
     >
       <div id="hero" className="text-center text-gray-100">

@@ -17,7 +17,7 @@ const App = () => {
   }, []);
 
   return (
-    <div className="font-thin">
+    <div className="">
       <Navbar />
       <HeroSection />
       <AboutSection />

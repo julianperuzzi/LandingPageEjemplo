@@ -1,18 +1,28 @@
 import React from "react";
-import { Parallax } from "react-parallax";
+import videoSrc from "../assets/71555-538962828_small.mp4"; // Ajusta la ruta según la ubicación del archivo
 
 const HeroSection = () => {
   return (
-    <Parallax
-      bgImage="https://w.wallhaven.cc/full/4g/wallhaven-4gr36e.jpg"
-      strength={300}
-      bgImageStyle={{  objectFit: "cover", width: "100%", height: "100%"  }}
-    >
-      <div id="hero" className="text-center text-gray-100 h-screen flex flex-col items-center justify-center">
+    <div className="relative h-screen flex flex-col items-center justify-center text-center text-gray-100">
+      {/* Video de fondo */}
+      <video
+        autoPlay
+        loop
+        muted
+        className="absolute inset-0 w-full h-full object-cover"
+      >
+        <source src={videoSrc} type="video/mp4" />
+        {/* Si el navegador no soporta video */}
+        Your browser does not support the video tag.
+      </video>
+      {/* Capa de contenido */}
+      <div className="relative z-10">
         <h1 className="text-4xl md:text-6xl font-bold mb-4 text-shadow">Bienvenido a Soluciones Digitales</h1>
         <p className="text-lg md:text-2xl text-shadow">Landing Page de Ejemplo</p>
       </div>
-    </Parallax>
+      {/* Filtro de sombra (opcional) */}
+      <div className="absolute inset-0 bg-black opacity-20"></div>
+    </div>
   );
 };
 

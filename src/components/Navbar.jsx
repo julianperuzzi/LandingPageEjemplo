@@ -9,11 +9,11 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-gray-100/70 text-gray-600 p-4 fixed top-0 z-10 w-full backdrop-blur-sm">
+    <nav className="bg-gray-100/70 text-gray-600 p-4 fixed top-0 z-10 w-full backdrop-blur-sm shadow-lg">
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}
-        <div className="text-2xl font-bold">
-          <a href="#">Tu Empresa</a>
+        <div className="text-2xl font-bold text-gray-900">
+          <a href="#">🧉 Tu Empresa</a>
         </div>
 
         {/* Icono del menú (visible en móvil) */}

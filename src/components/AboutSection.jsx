@@ -7,7 +7,7 @@ const AboutSection = () => {
         {/* Imagen a la izquierda */}
         <div className="md:w-1/2 mb-8 md:mb-0">
           <img
-            src="https://w.wallhaven.cc/full/x1/wallhaven-x1rm63.jpg"
+            src="https://i.pinimg.com/736x/ab/89/df/ab89df307e0a4571e163d929abca6aaa.jpg"
             alt="Sobre Nosotros"
             className="w-10/12 h-auto rounded-lg shadow-lg object-cover mx-auto"
           />

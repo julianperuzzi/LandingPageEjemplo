@@ -5,7 +5,7 @@ const ServicesSection = () => {
     <section id="services" className="py-20 bg-white min-h-[80vh] flex flex-col justify-center">
       <div className="container mx-auto text-center">
         <h2 className="text-3xl md:text-4xl font-bold mb-12">Nuestros Servicios</h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mx-4">
           {/* Servicio 1 */}
           <div className="bg-white p-6 rounded-lg shadow-md transform transition-transform duration-300 hover:shadow-lg">
             <div className="overflow-hidden rounded-lg">

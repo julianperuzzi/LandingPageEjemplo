@@ -9,11 +9,11 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-gray-100/70 text-gray-600 p-4 fixed top-0 z-10 w-full backdrop-blur-sm shadow-lg">
+    <nav className="bg-gray-100/70 text-gray-600 p-4 fixed top-0 z-10 w-full backdrop-blur-sm shadow-lg z-90">
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}
         <div className="text-2xl font-bold text-gray-900">
-          <a href="#">🧉 Tu Empresa</a>
+          <a className="font-serif" href="#">TU LOGO ✨</a>
         </div>
 
         {/* Icono del menú (visible en móvil) */}
@@ -28,22 +28,22 @@ const Navbar = () => {
           } md:flex  absolute md:relative top-16 md:top-0 left-0 md:left-auto bg-gray-100 md:space-x-4 md:bg-transparent w-full md:w-auto p-4 md:p-0`}
         >
           <li className="my-2 md:my-0">
-            <a href="#hero" className="hover:text-gray-400">
+            <a href="#hero" className="hover:text-gray-600">
               Inicio
             </a>
           </li>
           <li className="my-2 md:my-0">
-            <a href="#about" className="hover:text-gray-400">
+            <a href="#about" className="hover:text-gray-600">
               Sobre Nosotros
             </a>
           </li>
           <li className="my-2 md:my-0">
-            <a href="#services" className="hover:text-gray-400">
+            <a href="#services" className="hover:text-gray-600">
               Servicios
             </a>
           </li>
           <li className="my-2 md:my-0">
-            <a href="#contact" className="hover:text-gray-400">
+            <a href="#contact" className="hover:text-gray-600">
               Contacto
             </a>
           </li>

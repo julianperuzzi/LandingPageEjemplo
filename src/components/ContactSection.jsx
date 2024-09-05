@@ -2,7 +2,7 @@ import React from "react";
 
 const ContactSection = () => {
   return (
-    <section id="contact" className="py-20 bg-gray-100 flex items-center justify-center">
+    <section id="contact" className="py-20 bg-gray-100 flex items-center justify-center md:h-screen">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
         {/* Imagen de Lado */}
         <div className="hidden md:block">
@@ -23,7 +23,7 @@ const ContactSection = () => {
           {/* Botón de Correo */}
           <a
             href="mailto:info@tuempresa.com"
-            className="inline-block bg-blue-600 text-white py-3 px-6 rounded-full shadow-lg hover:bg-blue-700 transition duration-300 mb-4 w-fit"
+            className="inline-block bg-blue-600 text-white py-3 px-6 rounded-full shadow-lg hover:bg-blue-700 transition duration-300 mb-4 md:w-fit text-center md:text-left"
           >
             Envíanos un Correo
           </a>
@@ -37,7 +37,7 @@ const ContactSection = () => {
             href="https://wa.me/1234567890"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block bg-green-500 text-white py-3 px-6 rounded-full shadow-lg hover:bg-green-600 transition duration-300 w-fit"
+            className="inline-block bg-green-500 text-white py-3 px-6 rounded-full shadow-lg hover:bg-green-600 transition duration-300 md:w-fit text-center md:text-left"
           >
             Envíanos un Mensaje por WhatsApp
           </a>
